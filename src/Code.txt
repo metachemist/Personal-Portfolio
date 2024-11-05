@@ -1,0 +1,82 @@
+<section className={`z-10 absolute top-0 right-40 flex flex-col w-max h-72 rounded-md justify-center mx-20 mt-20 text-baseBeige bg-baseGreen ${playfair.className}`}>
+            <div className="text-2xl font-bold items-center justify-center pl-40">Education</div>
+
+            <div className="grid grid-cols-[auto_1fr] gap-x-4 mt-3 items-start px-4">
+              {/* First entry */}
+              <div className="flex items-center justify-start">
+
+                <span className={`text-xl font-extrabold ml-2 ${playfair.className}`}>2023 - 2027</span>
+              </div>
+              <div className={`text-xs ${poppins.className}`}>
+                <div className={`text-xl font-bold ${playfair.className}`}>University of Karachi</div>
+                Bachelor&apos;s Degree in Computer Science
+              </div>
+
+              {/* Second entry */}
+              <div className="flex items-center justify-start">
+
+                <span className={`text-xl font-extrabold ml-2 ${playfair.className}`}>2023 - 2025</span>
+              </div>
+              <div className={`text-xs ${poppins.className}`}>
+                <div className={`text-xl font-bold ${playfair.className}`}>G.I.A.I.C</div>
+                Certified Cloud Applied Generative AI Engineering
+              </div>
+
+              {/* third entry */}
+              <div className="flex items-center justify-start ">
+
+                <span className={` text-xl font-extrabold ml-2 ${playfair.className}`}>2020 - 2022</span>
+              </div>
+              <div className={` text-xs ${poppins.className}`}>
+                <div className={`text-xl font-bold ${playfair.className}`}>Sir Syed Govt. Girls College</div>
+                Intermediate in Pre-Engineering
+              </div>
+
+            </div><br />
+
+            <div className="flex flex-col items-center text-2xl font-bold">
+              Languages
+              <div className="flex space-x-4 mt-4">
+                <div className={`flex flex-col rounded-3xl w-40 h-7 bg-baseBlack font-normal justify-center items-center text-xs ${poppins.className}`}>
+                  English - Fluent
+                </div>
+                <div className={`flex flex-col rounded-3xl w-40 h-7 bg-baseBlack font-normal justify-center items-center text-xs ${poppins.className}`}>
+                  Urdu/Hindi - Native
+                </div>
+              </div>
+            </div>
+
+
+            <section className={`z-10 absolute top-72 right-30 flex flex-col w-96 h-48 rounded-md justify-center mx-20 mb-10 text-baseBeige bg-baseBlack ${playfair.className}`}>
+              <div className="text-2xl font-bold items-center justify-center text-center">Technical Skills</div>
+
+
+              <div className="grid grid-cols-[auto_1fr] gap-x-32 mt-3 items-start px-4">
+                <div className="flex flex-col items-start space-y-2">
+                  <div className="flex items-center justify-start">
+                    Software Skills
+                  </div>
+
+                  <div className="flex flex-col space-y-2">
+
+                    <div className={`flex flex-col rounded-3xl w-40 h-7 bg-baseGreen font-normal justify-center items-center text-xs ${poppins.className}`}>
+                      English - Fluent
+                    </div>
+
+                    <div className={`flex flex-col rounded-3xl w-40 h-7 bg-baseGreen font-normal justify-center items-center text-xs ${poppins.className}`}>
+                      Urdu/Hindi - Native
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+              <div className="flex items-center justify-start">
+                Coding Skills
+              </div>
+
+              </div>
+            </section>
+          </section>
+        </>
