@@ -1,0 +1,5 @@
+green #334b35 rgba(51,75,53,255)
+yellow #fdad17
+brown #b76939 rgba(183,105,57,255)
+beige #f6eee1 #e8d0b8
+black #010103
