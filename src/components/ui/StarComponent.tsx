@@ -1,4 +1,3 @@
-
 const StarComponent = () => {
   return (
     <svg

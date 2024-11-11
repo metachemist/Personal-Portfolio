@@ -37,11 +37,10 @@ const Navbar = () => {
     };
   }, []);
 
-  return (  
-    <nav className={`z-50 fixed w-full top-0 transition-all duration-300 ease-in-out ${
-        isScrolled
-          ? "bg-baseBrown text-baseGreen shadow-lg h-10"
-          : "bg-baseGreen text-baseBeige h-20"
+  return (
+    <nav className={`z-50 fixed w-full top-0 transition-all duration-300 ease-in-out ${isScrolled
+        ? "bg-baseBrown text-baseGreen shadow-lg h-10"
+        : "bg-baseGreen text-baseBeige h-20"
       } ${poppins.className}`}
     >
       <div className="container mx-auto flex justify-between items-center h-full px-4">

@@ -44,9 +44,6 @@ const GetinTouch = () => {
         </Button>
 
       </div>
-
-
-
     </div>
   );
 }

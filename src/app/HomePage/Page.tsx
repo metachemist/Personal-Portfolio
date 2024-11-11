@@ -9,7 +9,6 @@ const playfair = Playfair_Display({
   subsets: ["latin"],
 });
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const poppins = Poppins({
   weight: ["400", "700"], // Specify the weights you need
   style: ["normal", "italic"], // Define styles if needed
@@ -67,6 +66,7 @@ const HomePage = () => {
         <section className="absolute top-72 -left-9 -mt-40 pr-3.5 align-left text-2xl font-bold">
           <StarComponent />
         </section>
+        
       </section>
 
     </div>

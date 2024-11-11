@@ -2,7 +2,6 @@
 import { Poppins } from "next/font/google";
 import { Playfair_Display } from "next/font/google";
 import { Button } from "@/components/ui/button";
-// import StarComponent from "@/components/ui/StarComponent";
 
 const playfair = Playfair_Display({
   weight: ["400", "700", "900"], // Specify the weights you need
@@ -10,7 +9,7 @@ const playfair = Playfair_Display({
   subsets: ["latin"],
 });
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+
 const poppins = Poppins({
   weight: ["400", "700"], // Specify the weights you need
   style: ["normal", "italic"], // Define styles if needed
@@ -62,7 +61,6 @@ const About = () => {
               <section className="text-sm m-1 w-24 h-5 text-baseBlack px-6 pl-4 rounded-xl bg-baseYellow">
                 Angular
               </section>
-
             </div>
 
             {/* Row 2 */}
@@ -127,9 +125,6 @@ const About = () => {
             </div>
 
           </div>
-
-
-
         </section>
 
         {/* third section */}
@@ -182,9 +177,9 @@ const About = () => {
             </div>
           </div>
         </section>
+        
+        {/* for extra height of container */}
         <div className={`absolute right-[30px] bottom-[113px] flex flex-row w-96 h-4 justify-center rounded-b-3xl items-center bg-baseOrange ${poppins.className}`}></div>
-
-
 
       </section>
     </div >

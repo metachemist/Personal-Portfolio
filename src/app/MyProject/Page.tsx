@@ -1,16 +1,13 @@
 "use client"
 import { Button } from "@/components/ui/button";
-import StarComponent from "@/components/ui/StarComponent";
 import { Playfair_Display, Poppins } from "next/font/google"
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const playfair = Playfair_Display({
   weight: ["400", "700", "900"], // Specify the weights you need
   style: ["normal", "italic"], // Define styles if needed
   subsets: ["latin"],
 });
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const poppins = Poppins({
   weight: ["400", "700"], // Specify the weights you need
   style: ["normal", "italic"], // Define styles if needed
@@ -33,6 +30,8 @@ const handlePostifyRedirect = () => {
 const handlePrompterestRedirect = () => {
   window.open('https://github.com/metachemist/Prompterest', '_blank', 'noopener,noreferrer');
 };
+
+
 const MyProjects = () => {
   return (
     <div className="relative py-18 mb-0 flex grow-0 justify-center items-center bg-baseGreen h-screen">
@@ -48,10 +47,6 @@ const MyProjects = () => {
       {/* Orange Project Text */}
       <section className={`absolute top-0 -left-5 z-20 flex justify-center items-center w-full mt-14 ${playfair.className}`}>
         <h1 className="text-8xl flex-col items-center font-semibold text-baseOrange"> My Projects</h1>
-        {/* Star elements */}
-        {/* <section className="top-96 -right-20  pr-3.5 align-left text-2xl font-bold">
-          <StarComponent />
-        </section> */}
       </section>
 
       {/* Right section  */}
@@ -82,17 +77,17 @@ const MyProjects = () => {
             Postify Github Repo
           </Button>
         </section>
-      
-     
+
+
         <section>
           <div className={`text-xl font-semibold mt-1 ${playfair.className}`}>4. Prompterest</div>
           <div className={`text-sm mt-1`}>An AI-powered prompting tool for users to discover, create, and share creative prompts. It leverages modern technologies like Next.js and TypeScript to offer a seamless user experience.</div>
           <Button onClick={handlePrompterestRedirect} className={`z-30 relative top-0 left-10 text-sm m-3 w-64 font-sm pl-2 bg-baseYellow hover:bg-baseBlack hover:text-baseBeige`}>
             Prompterest Github Repo
           </Button>
-          </section>
-          </div>
+        </section>
       </div>
+    </div>
 
 
   )
