@@ -4,7 +4,7 @@ import HomePage from "@/components/pages/HomePage/Page";
 import About from "@/components/pages/About/Page";
 import MyProject from "@/components/pages/MyProject/Page";
 import GetinTouch from "@/components/pages/GetInTouch/Page";
-import Circle from "@/components/ui/Circle";
+// import Circle from "@/components/ui/Circle";
 
 
 
@@ -21,7 +21,7 @@ export default function Home() {
     <main>
       {/* Navbar component in layout.tsx */}
       <HomePage/>
-      <Circle/>
+      {/* <Circle/> */}
       <About/>
       <MyProject/>
       <GetinTouch/>

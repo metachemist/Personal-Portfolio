@@ -39,11 +39,10 @@ const HomePage = () => {
         <section className="top-96 -right-20  pr-3.5 align-left text-2xl font-bold">
           <StarComponent />
         </section>
-
       </section>
 
       {/* Socials */}
-      <section className={`absolute top-64 right-56 text-baseBeige text-lg ${poppins.className}`}>
+      <section className={`absolute top-64 right-56 text-baseBeige p-5 text-md ${poppins.className}`}>
         {/* <div>IG:@the.typical.browngirl_ <br /></div> */}
         <div>Email: hafsahere01@gmail.com<br /></div>
         <div>GitHub: /metachemist <br /></div>

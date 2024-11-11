@@ -34,7 +34,7 @@ const About = () => {
         <section className={`flex flex-col w-96 h-96 px-10 rounded-3xl text-baseBlack ${playfair.className}`}>
           <div className="text-6xl font-semibold">Hello,<br />I&apos;m Hafsa !</div>
 
-          <div className={`text-md mt-5 ${poppins.className}`}>
+          <div className={`text-sm mt-5 ${poppins.className}`}>
             I&apos;m a second-year BSCS student at the University of Karachi, specializing in front-end development with experience in Next.js, Angular, and React. I&apos;m also exploring Cloud Native Generative AI Engineering to expand my skills in tech.
           </div>
 
@@ -51,7 +51,7 @@ const About = () => {
 
           <div className={`flex flex-col gap-2 mt-2 ${poppins.className}`}>
             {/* Row 1 */}
-            <div className={`font-semibold ${poppins.className}`}>✨ Frontend development</div>
+            <div className={`font-semibold ${poppins.className}`}>Frontend development</div>
             <div className="flex flex-row gap-1">
               <section className="text-sm m-1 w-20 h-5 text-baseBlack px-6 pl-5 rounded-xl bg-baseYellow">
                 HTML
@@ -81,7 +81,7 @@ const About = () => {
           {/* Software Skills */}
           <div className={`flex flex-col gap-2 mt-2 ${poppins.className}`}>
             {/* Row 1 */}
-            <div className={`font-semibold ${poppins.className}`}>✨ Software Skills</div>
+            <div className={`font-semibold ${poppins.className}`}>Software Skills</div>
             <div className="flex flex-row gap-1">
               <section className="text-sm m-1 w-20 h-5 text-baseBlack px-6 pl-5 rounded-xl bg-baseYellow">
                 Figma
@@ -99,7 +99,7 @@ const About = () => {
           {/* Core CS Courses */}
           <div className={`flex flex-col gap-2 mt-2 ${poppins.className}`}>
             {/* Row 1 */}
-            <div className={`font-semibold ${poppins.className}`}>✨ Core CS Courses</div>
+            <div className={`font-semibold ${poppins.className}`}>Core CS Courses</div>
             <div className="flex flex-row gap-1">
               <section className="text-sm m-1 w-16 h-5 text-baseBlack px-6 pl-5 rounded-xl bg-baseYellow">
                 DSA
