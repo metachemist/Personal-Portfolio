@@ -9,7 +9,6 @@ const playfair = Playfair_Display({
   subsets: ["latin"],
 });
 
-
 const poppins = Poppins({
   weight: ["400", "700"], // Specify the weights you need
   style: ["normal", "italic"], // Define styles if needed

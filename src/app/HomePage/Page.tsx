@@ -50,7 +50,7 @@ const HomePage = () => {
       </section>
 
       {/* Centered Image */}
-      <section className={`absolute top-1/2 right-[60%] transform -translate-y-1/2 z-10`} style={{ transform: 'translate(-calc(50% + 20px), -55%)', top: 'calc(50% - 20px)', }}>
+      <section className={`absolute top-1/2 right-[60%] transform -translate-y-1/2 z-10 custom-image-section`}>
         <Image
           src="/images/anime.jpeg"
           alt="Person's picture"
