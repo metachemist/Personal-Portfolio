@@ -1,6 +1,7 @@
 # Portfolio Website
 
 This is a portfolio website built using **TypeScript**, **TailwindCSS**, **ShadCN UI**, and **Next.js**. The site showcases my work, skills, and projects as a front-end developer.
+PART of my assignment of GIAIC
 
 ## Features
 
